@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.netology.ivanovoleg</groupId>
-    <artifactId>App_Core_HT1.4_Builders_1</artifactId>
+    <artifactId>Core_HT1.4_Builders_1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <modules>
-        <module>db</module>
-        <module>api</module>
-        <module>service</module>
-    </modules>
     <properties>
+        <java.version>18</java.version>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <modules>
+        <module>api</module>
+        <module>db</module>
+        <module>service</module>
+    </modules>
 </project>
